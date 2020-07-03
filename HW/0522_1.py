@@ -1,0 +1,6 @@
+f = open('Data/portfolio.csv','r')
+print(f)
+print(type(f))
+data = f.read()
+print(type(data))
+print(data)
